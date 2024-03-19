@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">Your Recipe Site</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Search</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Recipes">
+                <button type="button"><i class="fas fa-search"></i></button>
+            </div>
+            <a href="#" class="user-icon"><i class="fas fa-user"></i></a>
+        </nav>
+        <section class="banner">
+            <img src="banner.jpg" alt="Banner Image">
+            <h2>Delicious Recipes</h2>
+            <p>Explore a wide variety of mouthwatering dishes from around the world.</p>
+            <div class="banner-buttons">
+                <a href="#">Explore Now</a>
+                <a href="#">Our Feedback</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="recipes">
+            <h2>Our Recipes</h2>
+            <p>Get inspired by these amazing culinary creations.</p>
+            <div class="recipe-cards" id="recipe-cards"></div>
+        </section>
+        <aside class="sidebar">
+            <h3>Want to Cook</h3>
+            <table id="want-to-cook-table">
+                <thead>
+                    <tr>
+                        <th>Recipe Name</th>
+                        <th>Prep Time</th>
+                        <th>Calories</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <h3>Currently Cooking</h3>
+            <table id="currently-cooking-table">
+                <thead>
+                    <tr>
+                        <th>Recipe Name</th>
+                        <th>Prep Time</th>
+                        <th>Calories</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <div class="totals">
+                <p>Total Prep Time: <span id="total-prep-time">0 min</span></p>
+                <p>Total Calories: <span id="total-calories">0 cal</span></p>
+            </div>
+        </aside>
+    </main>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-YWznkfwAFCWqRWcckxtBTjafBkmDhqv+bCWznHdLAoVcRLUeZ2JMn4pHCQ4p+sKadJDsPtCqXRvWt2qS+:WVA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
+</html>

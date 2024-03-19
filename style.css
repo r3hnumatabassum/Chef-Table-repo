@@ -1,0 +1,45 @@
+/* Style according to your Figma design */
+body {
+    font-family: sans-serif;
+}
+
+header {
+    /* Styles for header, navigation, banner */
+}
+
+.nav-links {
+    /* Styles for navigation links */
+}
+
+.search-bar {
+    /* Styles for search bar */
+}
+
+.banner {
+    /* Styles for banner section */
+}
+
+.banner-buttons {
+    /* Styles for banner buttons */
+}
+
+main {
+    display: flex; /* Arrange recipes and sidebar side-by-side */
+}
+
+.recipes {
+    /* Styles for recipes section */
+}
+
+.recipe-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.recipe-card {
+    /* Styles for individual recipe cards */
+}
+
+aside {
+    /* Styles for sidebar
